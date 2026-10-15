@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Core SEO Meta Tags -->
+    <title>Web Indexing Test | Sandbox Platform</title>
+    <meta name="description" content="A lightweight, optimized single-page application built for search engine crawler testing, indexing verification, and DOM parsing analysis.">
+    <meta name="keywords" content="web indexing, search engine crawler test, SEO test page, schema validation, bot sandbox">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Indexer Testing Lab">
+    <link rel="canonical" href="https://example.com/">
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Web Indexing Test | Sandbox Platform">
+    <meta property="og:description" content="Lightweight test target for evaluating web crawler behavior and page rendering performance.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:image" content="https://placehold.co/1200x630/0f172a/ffffff?text=Indexing+Test+Page">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Web Indexing Test | Sandbox Platform">
+    <meta name="twitter:description" content="Lightweight test target for evaluating web crawler behavior and page rendering performance.">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data for Indexers -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Web Indexing Test Platform",
+      "description": "Standardized lightweight test page for web search engine indexing and bot parsing verification.",
+      "url": "https://example.com/",
+      "inLanguage": "en-US"
+    }
+    </script>
+
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col justify-between antialiased">
+
+    <!-- Header Navigation -->
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-2">
+                <div class="w-8 h-8 rounded-lg bg-slate-900 text-white flex items-center justify-center font-bold text-sm">
+                    IX
+                </div>
+                <span class="font-bold text-slate-900 tracking-tight text-lg">IndexTest Sandbox</span>
+            </a>
+            <nav class="flex space-x-6 text-sm font-medium text-slate-600">
+                <a href="#about" class="hover:text-slate-900 transition-colors">About</a>
+                <a href="#metrics" class="hover:text-slate-900 transition-colors">Metrics</a>
+                <a href="#specifications" class="hover:text-slate-900 transition-colors">Specs</a>
+                <a href="#contact" class="hover:text-slate-900 transition-colors">Submit</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow">
+        
+        <!-- Hero Section -->
+        <section id="about" class="py-16 sm:py-24 bg-white border-b border-slate-200">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6 text-center">
+                <span class="inline-block px-3 py-1 text-xs font-semibold uppercase tracking-wider text-slate-700 bg-slate-100 rounded-full mb-4">
+                    SEO & Indexing Sandbox
+                </span>
+                <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 leading-tight">
+                    Standard Web Indexing Test Target
+                </h1>
+                <p class="mt-4 max-w-2xl mx-auto text-base sm:text-lg text-slate-600 leading-relaxed">
+                    A clean, lightweight web page created specifically for search engine indexing verification, crawler performance checks, and DOM tree parsing tests.
+                </p>
+                <div class="mt-8 flex justify-center gap-4">
+                    <a href="#metrics" class="px-5 py-2.5 rounded-lg bg-slate-900 text-white text-sm font-semibold hover:bg-slate-800 transition-colors shadow-sm">
+                        View Page Metrics
+                    </a>
+                    <a href="#specifications" class="px-5 py-2.5 rounded-lg bg-slate-100 text-slate-700 text-sm font-semibold hover:bg-slate-200 transition-colors">
+                        Technical Specs
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Real-Time Metrics -->
+        <section id="metrics" class="py-12 bg-slate-50 border-b border-slate-200">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6">
+                <div class="text-center mb-8">
+                    <h2 class="text-xl font-bold text-slate-900">Live Page Elements</h2>
+                    <p class="text-xs text-slate-500 mt-1">Calculated via browser DOM inspection for validation.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="bg-white p-4 rounded-lg border border-slate-200 text-center shadow-xs">
+                        <div id="statWords" class="text-2xl font-extrabold text-slate-900">0</div>
+                        <div class="text-xs font-medium text-slate-500 uppercase mt-1">Word Count</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg border border-slate-200 text-center shadow-xs">
+                        <div id="statHeadings" class="text-2xl font-extrabold text-slate-900">0</div>
+                        <div class="text-xs font-medium text-slate-500 uppercase mt-1">Headings</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg border border-slate-200 text-center shadow-xs">
+                        <div id="statLinks" class="text-2xl font-extrabold text-slate-900">0</div>
+                        <div class="text-xs font-medium text-slate-500 uppercase mt-1">Anchor Links</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg border border-slate-200 text-center shadow-xs">
+                        <div class="text-2xl font-extrabold text-emerald-600">Valid</div>
+                        <div class="text-xs font-medium text-slate-500 uppercase mt-1">Schema JSON-LD</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Specifications Grid -->
+        <section id="specifications" class="py-16 bg-white border-b border-slate-200">
+            <div class="max-w-5xl mx-auto px-4 sm:px-6">
+                <div class="mb-12 text-center">
+                    <h2 class="text-2xl font-bold text-slate-900">Page Structure & Features</h2>
+                    <p class="text-sm text-slate-600 mt-2">Designed to meet standard web engine crawlability guidelines.</p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="p-6 rounded-xl bg-slate-50 border border-slate-200">
+                        <h3 class="font-bold text-slate-900 text-base mb-2">Semantic HTML5</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Structured with standard tags including header, main, section, and footer elements for transparent document structure.
+                        </p>
+                    </div>
+                    <div class="p-6 rounded-xl bg-slate-50 border border-slate-200">
+                        <h3 class="font-bold text-slate-900 text-base mb-2">Clean Structured Data</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Embedded JSON-LD schema metadata allows search bots to extract and categorize core page entities immediately.
+                        </p>
+                    </div>
+                    <div class="p-6 rounded-xl bg-slate-50 border border-slate-200">
+                        <h3 class="font-bold text-slate-900 text-base mb-2">Fast Load Time</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Minimal external dependencies ensure quick response times and zero render-blocking JavaScript execution delays.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form Section -->
+        <section id="contact" class="py-16 bg-slate-50">
+            <div class="max-w-md mx-auto px-4 sm:px-6 text-center">
+                <h2 class="text-2xl font-bold text-slate-900">Crawler Ping Test</h2>
+                <p class="text-sm text-slate-600 mt-2">Simulate an HTTP form payload for parser testing.</p>
+
+                <form id="testForm" class="mt-6 text-left space-y-4" onsubmit="handleFormSubmit(event)">
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Email Address</label>
+                        <input type="email" required placeholder="tester@example.com" class="w-full px-3 py-2 rounded-lg border border-slate-300 bg-white text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-700 uppercase mb-1">Test Notes</label>
+                        <textarea rows="3" placeholder="Optional notes..." class="w-full px-3 py-2 rounded-lg border border-slate-300 bg-white text-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-slate-900"></textarea>
+                    </div>
+                    <button type="submit" class="w-full py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm rounded-lg transition-colors">
+                        Send Test Ping
+                    </button>
+                </form>
+
+                <div id="formResponse" class="hidden mt-4 p-3 rounded-lg text-sm text-emerald-800 bg-emerald-50 border border-emerald-200">
+                    Ping submitted successfully. Form response verified.
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 py-6">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
+            <p>&copy; <span id="year"></span> Indexability Test Lab. All rights reserved.</p>
+            <div class="flex space-x-4">
+                <a href="#about" class="hover:text-slate-900">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Client Script -->
+    <script>
+        // Set dynamic year
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Calculate basic page stats on load
+        window.addEventListener('DOMContentLoaded', () => {
+            const bodyText = document.body.innerText || '';
+            const words = bodyText.trim().split(/\s+/).filter(w => w.length > 0).length;
+            const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6').length;
+            const links = document.querySelectorAll('a').length;
+
+            document.getElementById('statWords').textContent = words;
+            document.getElementById('statHeadings').textContent = headings;
+            document.getElementById('statLinks').textContent = links;
+        });
+
+        // Simple form handling message box
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const responseBox = document.getElementById('formResponse');
+            responseBox.classList.remove('hidden');
+            e.target.reset();
+            setTimeout(() => {
+                responseBox.classList.add('hidden');
+            }, 4000);
+        }
+    </script>
+</body>
+</html>
